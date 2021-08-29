@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable/ic_delivery.xml" value="0.11851851851851852" />
         <entry key="app/src/main/res/drawable/ic_food.xml" value="0.11851851851851852" />
+        <entry key="app/src/main/res/drawable/ic_payment.xml" value="0.24791666666666667" />
         <entry key="app/src/main/res/drawable/ic_splash_screen.xml" value="0.11851851851851852" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18515704154002027" />
         <entry key="app/src/main/res/layout/fragment_first_screen.xml" value="0.23457748823173125" />
