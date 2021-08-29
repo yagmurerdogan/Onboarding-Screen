@@ -13,7 +13,15 @@ class ViewPagerFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_view_pager, container, false)
+        val view =  inflater.inflate(R.layout.fragment_view_pager, container, false)
+
+        val fragmentList = arrayListOf<Fragment>(
+
+        )
+
+
+
+        return view
     }
 
 }
