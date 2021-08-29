@@ -7,7 +7,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import androidx.viewpager.widget.ViewPager
 import com.yagmurerdogan.foody.R
 import com.yagmurerdogan.foody.databinding.FragmentThirdScreenBinding
 
@@ -21,7 +20,6 @@ class ThirdScreen : Fragment() {
     ): View {
 
         binding = FragmentThirdScreenBinding.inflate(layoutInflater, container, false)
-        val viewPager = activity?.findViewById<ViewPager>(R.id.viewPager)
 
         binding.finish.setOnClickListener {
             findNavController().navigate(R.id.action_viewPagerFragment_to_homeFragment)
