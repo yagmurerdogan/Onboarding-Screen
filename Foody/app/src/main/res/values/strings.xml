@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Foody</string>
+
+    <string name="food">FRESH FOOD</string>
+    <string name="delivery">FAST DELIVERY</string>
+    <string name="payment">EASY PAYMENT</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</string>
 </resources>
