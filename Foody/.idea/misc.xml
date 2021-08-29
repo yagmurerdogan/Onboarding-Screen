@@ -6,6 +6,7 @@
         <entry key="app/src/main/res/drawable/ic_splash_screen.xml" value="0.11851851851851852" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18515704154002027" />
         <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.19224924012158054" />
+        <entry key="app/src/main/res/layout/fragment_view_pager.xml" value="0.19199594731509625" />
       </map>
     </option>
   </component>
