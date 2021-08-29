@@ -17,7 +17,7 @@ Onboarding screen sample with Stevdza-San on YouTube 💙
 <h1 align="center"> Preview 👀 </h1>
 
 <h4 align="center">
-Onboarding screen only appears when the app is first opened. When we run the application two or more times, we can see directly home fragment after splash screen. 
+Onboarding screen only appears when we open app for first time. After that, we can see directly home fragment after splash screen. 
 </h4></br>
 
 <p align="center">
