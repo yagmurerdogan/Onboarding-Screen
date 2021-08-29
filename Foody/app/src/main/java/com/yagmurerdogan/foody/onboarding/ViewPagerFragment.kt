@@ -34,7 +34,7 @@ class ViewPagerFragment : Fragment() {
             lifecycle
         )
 
-        binding.viewPager
+        binding.viewPager.adapter = adapter
 
 
         return binding.root
