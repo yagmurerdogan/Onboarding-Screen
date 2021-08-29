@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.ViewParent
+import androidx.viewpager.widget.ViewPager
 import com.yagmurerdogan.foody.R
 import com.yagmurerdogan.foody.databinding.FragmentFirstScreenBinding
 
@@ -18,6 +20,12 @@ class FirstScreen : Fragment() {
     ): View {
 
         binding = FragmentFirstScreenBinding.inflate(layoutInflater, container, false)
+
+        val viewPager = activity?.findViewById<ViewPager>(R.id.viewPager)
+
+        binding.next.setOnClickListener {
+            viewPager?.currentItem = 1
+        }
 
         return binding.root
     }
